@@ -1,1 +1,76 @@
-Olá mundo
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Página Simples</title>
+</head>
+<body style="margin:0;font-family:Arial,Helvetica,sans-serif;background:#f5f7fb;color:#111;">
+  <div style="max-width:900px;margin:0 auto;padding:24px;">
+    <header style="background:#ffffff;border:1px solid #e6e8ef;border-radius:12px;padding:20px;box-shadow:0 8px 24px rgba(0,0,0,.06);">
+      <h1 style="margin:0 0 8px;font-size:28px;line-height:1.2;">Página HTML com CSS Inline</h1>
+      <p style="margin:0;color:#4b5563;font-size:14px;">
+        Exemplo simples, limpo e pronto pra editar.
+      </p>
+      <div style="margin-top:14px;">
+        <a href="#conteudo" style="display:inline-block;text-decoration:none;background:#111;color:#fff;padding:10px 14px;border-radius:10px;font-size:14px;">
+          Ir para o conteúdo
+        </a>
+        <a href="#contato" style="display:inline-block;text-decoration:none;border:1px solid #111;color:#111;padding:10px 14px;border-radius:10px;font-size:14px;margin-left:10px;">
+          Contato
+        </a>
+      </div>
+    </header>
+
+    <main id="conteudo" style="margin-top:18px;display:flex;gap:18px;flex-wrap:wrap;">
+      <section style="flex:2;min-width:280px;background:#ffffff;border:1px solid #e6e8ef;border-radius:12px;padding:18px;">
+        <h2 style="margin:0 0 10px;font-size:18px;">Conteúdo</h2>
+        <p style="margin:0 0 10px;color:#374151;line-height:1.6;">
+          Aqui vai o texto principal da página. Você pode usar este layout para landing pages, páginas de captura ou apresentação.
+        </p>
+
+        <div style="background:#f3f4f6;border:1px dashed #d1d5db;border-radius:10px;padding:12px;">
+          <strong style="display:block;margin-bottom:6px;">Dica rápida</strong>
+          <span style="color:#374151;line-height:1.6;">
+            Troque as cores, textos e botões mantendo os estilos inline para algo bem direto.
+          </span>
+        </div>
+
+        <ul style="margin:14px 0 0;padding-left:18px;color:#374151;line-height:1.8;">
+          <li>Layout responsivo (com flex + wrap)</li>
+          <li>Cards com borda e sombra leve</li>
+          <li>Botões simples e legíveis</li>
+        </ul>
+      </section>
+
+      <aside style="flex:1;min-width:240px;background:#ffffff;border:1px solid #e6e8ef;border-radius:12px;padding:18px;">
+        <h2 style="margin:0 0 10px;font-size:18px;">Login rápido</h2>
+
+        <label style="display:block;font-size:12px;color:#4b5563;margin-bottom:6px;">E-mail</label>
+        <input type="email" placeholder="seuemail@exemplo.com"
+          style="width:100%;box-sizing:border-box;padding:10px 12px;border:1px solid #d1d5db;border-radius:10px;outline:none;"
+        />
+
+        <label style="display:block;font-size:12px;color:#4b5563;margin:12px 0 6px;">Senha</label>
+        <input type="password" placeholder="••••••••"
+          style="width:100%;box-sizing:border-box;padding:10px 12px;border:1px solid #d1d5db;border-radius:10px;outline:none;"
+        />
+
+        <button type="button"
+          style="width:100%;margin-top:14px;padding:10px 12px;border:0;border-radius:10px;background:#111;color:#fff;font-size:14px;cursor:pointer;"
+        >
+          Entrar
+        </button>
+
+        <p style="margin:12px 0 0;font-size:12px;color:#6b7280;">
+          *Exemplo visual (sem envio de dados).
+        </p>
+      </aside>
+    </main>
+
+    <footer id="contato" style="margin-top:18px;padding:16px;text-align:center;color:#6b7280;font-size:12px;">
+      © <span style="color:#111;">Seu Nome</span> — <a href="mailto:contato@exemplo.com" style="color:#111;text-decoration:none;">contato@exemplo.com</a>
+    </footer>
+  </div>
+</body>
+</html>
